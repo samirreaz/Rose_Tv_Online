@@ -44,7 +44,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
         holder.description.setText (filteredItems.get (position).getItemDescription ());
         Picasso.get ()
                 //.with(context)
-                .load (items.get (position).getItemImage ())
+                .load (filteredItems.get (position).getItemImage ())
                 .fit ()
                 .centerCrop ()
                 .into (holder.imageView);
@@ -64,7 +64,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
                 String query = constraint.toString ();
                 if (query.isEmpty ()) {
                     filteredItems = items;
-                    Toast.makeText (context, "isEmpty", Toast.LENGTH_SHORT).show ();
+                    //Toast.makeText (context, "isEmpty", Toast.LENGTH_SHORT).show ();
                 } else {
                     List<Item> temptItem = new ArrayList<> ();
                     for (Item i : items) {

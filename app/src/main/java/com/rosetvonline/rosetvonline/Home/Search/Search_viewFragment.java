@@ -94,7 +94,6 @@ public class Search_viewFragment extends Fragment implements ItemAdapter.OnCataC
         Intent intent = new Intent(getContext(), CategoryClickViewActivity.class);
         intent.putExtra("cataName",itemCataName);
         startActivity(intent);
-        searchView.setFocusable(true);
         //Toast.makeText(getContext(), "passValue:"+items.get(position).getItemCategoryName(), Toast.LENGTH_SHORT).show();
         //Toast.makeText(getContext(), "CataName:"+itemCataName, Toast.LENGTH_SHORT).show();
 

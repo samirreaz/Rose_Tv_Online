@@ -56,28 +56,31 @@ public class LoginFragment extends Fragment {
         button_signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //firebaseAuth.signInWithEmailAndPassword(email.getText().toString(),password.getText().toString())
-                firebaseAuth.signInWithEmailAndPassword("s@y.com","123456")
-                        .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
-                                if (task.isSuccessful()){
-                                    textView.setText("login success");
-                                    //startActivity(new Intent(Admin.this, MainActivity.class));
-                                    FragmentManager fm = getFragmentManager();
-                                    FragmentTransaction ft = fm.beginTransaction();
-                                    ft.replace(R.id.admin_container,new Go_Y_Fragment());
-                                    //ft.addToBackStack(null);
-                                    ft.commit();
+                if (!email.getText().toString().isEmpty () && !password.getText().toString().isEmpty () ) {
+                    firebaseAuth.signInWithEmailAndPassword (email.getText ().toString (), password.getText ().toString ());
+                    //firebaseAuth.signInWithEmailAndPassword("s@y.com","123456")
+                    firebaseAuth.signInWithEmailAndPassword (email.getText ().toString (), password.getText ().toString ())
+                            .addOnCompleteListener (getActivity (), new OnCompleteListener<AuthResult> () {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    if (task.isSuccessful ()) {
+                                        textView.setText ("login success");
+                                        //startActivity(new Intent(Admin.this, MainActivity.class));
+                                        FragmentManager fm = getFragmentManager ();
+                                        FragmentTransaction ft = fm.beginTransaction ();
+                                        ft.replace (R.id.admin_container, new Go_Y_Fragment ());
+                                        //ft.addToBackStack(null);
+                                        ft.commit ();
+                                    }
                                 }
-                            }
-                        })
-                        .addOnFailureListener(getActivity(), new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                textView.setText(e.getLocalizedMessage());
-                            }
-                        });
+                            })
+                            .addOnFailureListener (getActivity (), new OnFailureListener () {
+                                @Override
+                                public void onFailure(@NonNull Exception e) {
+                                    //textView.setText(e.getLocalizedMessage());
+                                }
+                            });
+                }
             }
         });
 
