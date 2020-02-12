@@ -3,4 +3,94 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>Quran Tilawat</item>
+        <item>BZM Documentory</item>
+        <item>Chani Foyaj</item>
+        <item>Doya Monajat</item>
+        <item>Gojol</item>
+        <item>Khajababar Bani</item>
+        <item>Khajababar Nosihoth</item>
+        <item>Khajababar Rohomoter Foyaj</item>
+        <item>Khajababar Zikir</item>
+        <item>Live</item>
+        <item>Milad Kiyam</item>
+        <item>Rohomoter Foyaj</item>
+        <item>Torikoter Foyaj</item>
+        <item>Waze Mahfil</item>
+        <item>Zikir</item>
+    </string-array>
+
+    <string-array name="mawlana_name">
+        <item>Select Mawlana</item>
+        <item>Alhaz Sahabuddin Khan Mia Mama</item>
+        <item>Mufti Abu Nasir Jihadi</item>
+        <item>Bisso Oli Khaja Baba Faridpuri</item>
+        <item>Mawlana Asaduzzaman Jhenaidah</item>
+        <item>Mufty Asraf Billal Al Usmani</item>
+        <item>Mufti Abdur Razzak Osmani</item>
+        <item>Mufti Alauddin Jihadi</item>
+        <item>Mufty Billal Hosen Ansari</item>
+        <item>Mufti Jahirul Islam Foridi</item>
+        <item>Mufti Kamruzzaman Nuri</item>
+        <item>Mufti Leakot Ali Aseki</item>
+        <item>Mufti Masudur Rahman Hamidi</item>
+        <item>Mufti Rofiqul Islam Mirazi</item>
+        <item>Mawlana Mahbubur Rahman Mazhari</item>
+        <item>Mawlana Hasan Siraji</item>
+        <item>Maulana Syed Ahmed</item>
+        <item>Maulana Tajul Islam Chandpuri</item>
+        <item>Mosarof Hossen Helali</item>
+        <item>Mowlovi Abdullah Al Mamun</item>
+        <item>Qari Ruhul Amin Siddiqui</item>
+        <item>Mawlana Emran Hussin Majhari</item>
+
+
+        <item>Mufti Abul Kashem Jihadi</item>
+        <item>Hafez Abul Fazal Nomani</item>
+        <item>Mawlana Jamshed Kabir Baki Billah</item>
+        <item>Maulana Nure Alom</item>
+        <item>Maulana Abdul Kader Lohani</item>
+        <item>Hafez Sirajul Islam</item>
+        <item>Maulana Akkas Ali</item>
+        <item>Maulana Al Amin Jihadi</item>
+        <item>Maulana Abdul Kaium</item>
+        <item>Mufti Sorowar Fardous Khan</item>
+        <item>Mufti Abdur Lotif Faruqi</item>
+        <item>Maulana Abdus Sobhan</item>
+        <item>Maulana Jahangir Alam Jihadi</item>
+        <item>Maulana Oli Ahmed Shahin</item>
+        <item>Maulana Humayun Kabir</item>
+        <item>Maulana Ismail Hossain Siraji</item>
+        <item>Maulana Josim Uddin Jihadi</item>
+        <item>Maulana Abdul Kader Sadipuri</item>
+        <item>Mufti Abdul Wadud Siddiqui</item>
+        <item>Maulana Robiul Islam Jihadi</item>
+        <item>Maulana Omar Faruk Mujahide</item>
+        <item>Mowlovi Munshi Anwar Uddin</item>
+        <item>Mowlovi Abdul Hannan</item>
+
+
+        <item>Dr.Kafiluddin Sarkar Salehi</item>
+        <item>Dr.Hujjatullah Noksebondi</item>
+        <item>Mufti Usman Goni Salehi</item>
+        <item>Maulana Shahidullah Bahadur</item>
+        <item>Shahjada Khaza Noman Shah</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Select Year</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
 </resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp"
+    android:background="?selectableItemBackground"
+    app:cardBackgroundColor="#ccc"
+    app:cardCornerRadius="5dp"
+    android:elevation="9dp">
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:id="@+id/cata_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/visual" />
+
+        <ImageView
+            android:id="@+id/transparentBackground"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignBottom="@id/cata_image"
+            android:src="@drawable/black_gradient"/>
+
+        <TextView
+            android:id="@+id/textView_Mawlana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Mawlana Allauddin Jehidi"
+            android:layout_marginLeft="3dp"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/cata_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Mawlana Allauddin Jehidi"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"/>
+
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+</androidx.cardview.widget.CardView>

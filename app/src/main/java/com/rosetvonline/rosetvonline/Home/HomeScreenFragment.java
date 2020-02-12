@@ -1,4 +1,4 @@
-package com.rosetvonline.rosetvonline.splashScreen;
+package com.rosetvonline.rosetvonline.Home;
 
 
 import android.os.Bundle;
@@ -14,10 +14,10 @@ import com.rosetvonline.rosetvonline.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SplashScreenFragment extends Fragment {
+public class HomeScreenFragment extends Fragment {
 
 
-    public SplashScreenFragment() {
+    public HomeScreenFragment() {
         // Required empty public constructor
     }
 
@@ -26,7 +26,7 @@ public class SplashScreenFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_splash_screen, container, false);
+        return inflater.inflate(R.layout.fragment_home_screen, container, false);
     }
 
 }
